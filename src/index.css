@@ -12,14 +12,18 @@ html, body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Light + Dark background control */
+/* Light mode */
 html {
-  background-color: #f9fafb; /* light mode */
+  background-color: #f9fafb;
+  color: #111827;
 }
 
+/* Dark mode */
 html.dark {
-  background-color: #0f172a; /* dark mode */
-  color: white;
+  background-color: #0f172a;
+  color: #ffffff;
 }
