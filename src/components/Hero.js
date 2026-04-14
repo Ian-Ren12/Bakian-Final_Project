@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="text-center py-24 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
 
       <motion.h1
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="text-5xl font-bold"
@@ -18,7 +18,7 @@ export default function Hero() {
         Front-End Developer | React & Tailwind Enthusiast
       </p>
 
-      <div className="mt-6 space-x-4">
+      <div className="mt-8 flex justify-center gap-4 flex-wrap">
 
         <a
           href="#contact"
